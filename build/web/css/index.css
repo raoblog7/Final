@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Jun, 2017, 1:36:56 AM
+    Author     : rahul
+*/
+body {
+      
+  }
+  
+  #affix1.affix {
+      background: white;
+      top:0px;
+      height:85px;
+      width: 100%;
+       z-index: 9 !important;
+      
+  }
+  #affix2.affix {
+      position: fixed;
+      top:90px;
+      width: 100%;
+      z-index: 9 !important;
+  }
+  #affix3.affix {
+      position: fixed;
+      top:85px;
+      width: 100%;
+      z-index: 9 !important;
+  }
+ #affix4.affix {
+     position: fixed;
+      top:0px;
+      width: 100%;
+      z-index: 9 !important;
+  }
+  #affix5.affix {
+      background: white;
+      top:0px;
+      height:90px;
+      width: 100%;
+      z-index: 9 !important;
+  }
+  #cl3.affix{
+      margin-top:2px;
+      margin-left: 861px;
+      z-index:10 !important;
+      
+  }
+  #fav.affix{
+      margin-left: 861px;
+      z-index:10 !important;
+      
+  }
+  
+  #blogcolumn.affix{
+     width:400px;
+      
+  }
+  #blogcolumn{
+      width: 500px;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+ 
+  .affix1 ~ .container-fluid {
+     position: relative;
+     top:0px;
+  }
+  .affix2 ~ .container-fluid {
+     position: relative;
+     top:0px;
+  }
+  .affix3 ~ .container-fluid {
+     position: relative;
+     top:0px;
+  }
+  .affix4 ~ .container-fluid {
+     position: relative;
+     top:0px;
+  }
+  .affix5 ~ .container-fluid {
+     position: relative;
+     top:0px;
+  }
+  
+  .blogcolumn ~ .container-fluid{
+      position: relative;
+     top:0px;
+     
+  }
+  
+ body.modal-open .modal {
+    display: flex !important;
+    height: 100%;
+} 
+
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
+  
+  #content{
+      margin-top: 170px;
+  }
+  #affix1{
+      background: white;
+      height:85px;
+  }
+#affix2{
+    background-color:#72eae2;
+}
+#affix3{
+    background-color:#72eae2;
+}
+#affix4{
+    background-color:#72eae2;
+    
+}
+#affix5{
+      background: white;
+      height:85px;
+  }
+
+
+#cf{
+    margin-left: 100px;
+}
+#head{
+    text-decoration: none;
+}
+#comm{
+    list-style-type:none;
+}
+.mar{
+    margin-left: 20px;
+}
+#footer{
+    background-color:whitesmoke;
+    margin-top: 20px;
+    margin-left: 0px;
+    width:100%;
+    
+}   
+#hi5{
+    margin-left:420px;
+}
+#last{
+    background-color:black;
+    color:white;
+    
+}
+.colorw{
+    color:#314040
+}
+.form{
+    margin-top:15px;
+}
+#cl3{
+    background-color:whitesmoke;
+    margin-top: 10px;   
+}
+#fav{
+    margin-top:0px;
+}
+#tc{
+    margin-top:80px;
+}
+#fil{
+    visibility: hidden;
+}
+
+
+.blog-box:hover {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.emsg{
+    font-size: 10px;
+}
+

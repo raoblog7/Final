@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/blog/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/blog/css/index.css" rel="stylesheet"/>
+        <script src="/blog/js/jquery-3.2.1.js"></script>
+        <script src="/blog/js/bootstrap.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div class="container-fluid">
+        <div class="row">
+            <br>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <a  href="#" >Get us on whatsapp</a>
+                <a class="mar" href="#" >About us</a>
+                <a class="mar" href="#" >Advertise</a>
+                <a class="mar" href="#" >Contact</a>
+            </div>
+            <form action="controller?command=AdminLogin&case=2" method="post">
+                <div class="col-md-2">
+			<div class="form-group">
+				<input type="text" class="form-control" name="email" placeholder="Email or phone number" style="width:200px"/>
+			</div>
+                </div>
+                <div class="col-md-2">
+			<div class="form-group">
+				<input id="ff" type="text" class="form-control" name="pass" placeholder="Password" style="width:200px"/>
+			</div>
+                        <a href="#" onclick="datagetter()" >Forgot password?</a>
+                 </div>
+                <div class="col-md-1">
+			<div class="form-group">
+				<input type="submit" class="btn btn-block btn-primary" value="Sign in"/>
+			</div>
+                </div>
+                    </form>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-lg-4">
+                <h1>
+                    <a href="#" id="head">Rao's blog</a>
+                </h1>
+            </div>
+        </div>
+        <nav class="navbar" data-spy="affix" data-offset-top="197"  id="nav">
+            <div class="" id="cf">
+		<ul class="nav navbar-nav">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">SKILLS TO SUCCED</a></li>
+			<li><a href="#">VEDIOS</a></li>
+                        <li><a class="dropdown-toggle" href="#"
+			 data-toggle="dropdown">SUBSCRIBE
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">WHATSAPP</a></li>
+                            <li><a href="#">EMAIL NEWSLETTER</a></li>
+                            <li><a href="#">CORPORATE NEWSLETTER</a></li>
+                        </ul>  
+                        </li>
+                        <li><a href="#">IMPACT</a></li>
+			<li><a href="#">BLOG</a></li>
+			<li><a href="#">LABS</a></li>
+                        <li><a class="dropdown-toggle" href="#"
+			 data-toggle="dropdown">MORE
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header"><a>Topics</a>
+                            <ul>
+                            <li><a href="#">ART</a></li>
+                            <li><a href="#">CHANGEMAKERS</a></li>
+                            <li><a href="#">CHILDREN</a></li>
+                            <li><a href="#">COMMUNITY DEVELOPMENT</a></li>
+                            <li><a href="#">#CONNECTING4FOOD</a></li>
+                            <li><a href="#">DISABILITY</a></li>
+                            <li><a href="#">EDUCATION</a></li>
+                            <li><a href="#">ENVIRONMENT</a></li>
+                            <li><a href="#">GOVERNMENT</a></li>
+                            </ul>  
+                            </li>
+                            <li class="dropdown-header"><a>Topics</a>
+                            <ul>
+                            <li><a href="#">HEALTHCARE</a></li>
+                            <li><a href="#">INNOVATION</a></li>
+                            <li><a href="#">INSPIRATIONAL</a></li>
+                            <li><a href="#">TRAVEL</a></li>
+                            <li><a href="#">QUICK BYTES</a></li>
+                            <li><a href="#">RURAL INDIA</a></li>
+                            <li><a href="#">WOMEN</a></li>
+                            <li><a href="#">SPORTS</a></li>
+                            </ul>  
+                            </li>
+                            <li class="dropdown-header"><a>CAMPAIGNS</a>
+                            <ul>
+                            <li><a href="#">FIGHT DROUGHT</a></li>
+                            <li><a href="#">THE MUMBAI PORTAL</a></li>
+                            </ul>  
+                            </li>
+                            <li class="dropdown-header"><a>MORE ON TBI</a>
+                            <ul>
+                            <li><a href="#">ABOUT THE BETTER INDIA</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">PRESS COVERAGE</a></li>
+                            <li><a href="#">NEWSLETTER FOR CORPORATES</a></li>
+                            </ul>  
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="active">
+                            <form class="navbar-form navbar-right">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </form>
+                        </li>
+		</ul>
+                
+            </div>
+	</nav>
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-1">
+                   <div class="thumbnail"> <!--  thumbnail 1  -->
+          <img src="images/ima3.jpg" alt="china thumbnail"> <!-- image 1 -->
+          <div class="caption"> <!-- caption -->
+            <h3>The Great Wall of China</h3>
+            <p>The Great Wall of China is a series of fortifications
+              made of stone, brick, tamped earth, wood, and other
+              materials, generally built along an east-to-west line 
+              across the historical northern borders of China</p>
+            <p><a href="#" class="btn btn-primary btn-block" role="button">Read this blog</a> <!-- btn 1 -->
+        
+          </div>
+                   </div>
+                </div>
+                <div class="col-lg-3">
+          <div class="thumbnail"> <!-- thumbnail 2 -->
+          <img src="images/images3.jpeg" alt="Statue of Liberty thumbnail">  <!-- image 2 -->
+          <div class="caption">  <!-- caption -->
+            <h3>Statue of Liberty</h3>
+            <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty
+              Island in the middle of New York Harbor, in Manhattan, New York City.</p>
+            <p><a href="#" class="btn btn-primary btn-block" role="button">Read this blog</a>   <!-- btn 1 -->
+              
+          </div>
+        </div>
+                </div>
+       
+                     
+                
+                <div class="col-lg-3" id="cl3" >
+                    <form action="controller?command=SignUp&case=2" method="post">
+                        <h3 style="margin-left: 15px;">Be great at what you do</h3>
+                        <input type="text" class="form-control" name="fn"placeholder="First name" />
+                        <input type="text" class="form-control" name="ln" class="form" placeholder="Last name" style="margin-top:20px"/>
+                        <input type="text" class="form-control" name="email" class="form" placeholder="Email" style="margin-top:20px"/>
+                        <input type="text" class="form-control" name="pass" class="form" placeholder="Password (6 or more characters)" style="margin-top:20px"/>
+                        <input type="text" class="form-control" name="mobile" class="form" placeholder="Mobile Number" style="margin-top:20px;"/>
+                        <input type="text" class="form-control" name="city" class="form" placeholder="City" style="margin-top:20px;"/>
+                        
+                        <input type="submit" value="Sign Up" class="btn btn-primary btn-block form"/>
+                    </form>
+                    <br>
+                </div>
+                <br>
+            </div>
+            <div id="footer">
+            <div class="row" id="ft1">
+                <br>
+                <div class="col-md-2"></div>
+                <form action="#">
+                <div class="col-md-2">
+                   <h4></h4> 
+                </div>
+                <div class="col-md-2">
+                  <input type="text" class="form-control" name="year" placeholder="YEAR"/>
+                </div>
+                <div class="col-md-2">
+                     <input type="text" class="form-control" name="cat" placeholder="CATEGORY"/>     
+                </div>
+                <div class="col-md-4">
+                    <input type="submit" value="Search" class="btn btn-primary"/>
+                 
+                </div>
+                </form>
+            </div>
+            <div class="row">
+               
+                <h5 id="hi5">
+                    Search By City Name:
+                    <a href="#" >A</a>
+                    <a href="#" >B</a>
+                    <a href="#" >C</a>
+                    <a href="#" >D</a>
+                    <a href="#" >E</a>
+                    <a href="#" >F</a>
+                    <a href="#" >G</a>
+                    <a href="#" >H</a>
+                    <a href="#" >I</a>
+                    <a href="#" >J</a>
+                    <a href="#" >K</a>
+                    <a href="#" >L</a>
+                    <a href="#" >M</a>
+                    <a href="#" >N</a>
+                    <a href="#" >0</a>
+                    <a href="#" >P</a>
+                    <a href="#" >Q</a>
+                    <a href="#" >R</a>
+                    <a href="#" >S</a>
+                    <a href="#" >T</a>
+                    <a href="#" >U</a>
+                    <a href="#" >V</a>
+                    <a href="#" >W</a>
+                    <a href="#" >X</a>
+                    <a href="#" >Y</a>
+                    <a href="#" >Z |</a>
+                     <a href="#" >Search by country</a>
+                </h5>
+                <br>
+           </div>
+            <div class="row" >
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                <h5 class="colorw">_______________________________________________________________________________________________________</h5>
+                <br>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h5 class="colorw">GENERAL<br><br>
+                    </h5><h5>
+                    <a href="#">SIGN UP |</a>
+                     
+                    <a href="#" >HELP CENTER |</a>
+                    
+                    <a href="#" >ABOUT |</a>
+                    
+                    <a href="#" >PRESS |</a>
+                    
+                    <a href="#" >BLOG </a>
+                    </h5>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="colorw">CATEGORY</h5>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h5>
+                    <a href="#">SIGN UP |</a>
+                     
+                    <a href="#" >HELP CENTER |</a>
+                    
+                    <a href="#" >ABOUT |</a>
+                    
+                    <a href="#" >PRESS |</a>
+                    
+                    <a href="#" >BLOG </a>
+                    </h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                    <a href="#" >NEWS |</a>
+                    
+                    <a href="#">BUSINESS |</a>
+                    
+                    <a href="#">SPORTS |</a>
+                    
+                    <a href="#">POLITICS |</a>
+                    
+                    <a href="#">SOCIETY |</a>
+                    
+                    <a href="#">ENTERTAINMENT |</a>
+                    
+                    <a href="#">ENVIRONMENT |</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="row" ><br><br></div>
+            <div class="row" >
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h5 class="colorw">CAMPAIGNS</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="colorw">MORE ON TBI</h5>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h5 class="colorl">
+                    <a href="#">FIGHT DROUGHT |</a>
+                    
+                    <a href="#">THE MUMBAI PORTAL</a>
+                    
+                    </h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                    <a href="#" >ABOUT THE INDIA |</a>
+                    
+                    <a href="#" >CONTACT |</a>
+                    
+                    <a href="#" >PRESS COVERAGE |</a>
+                    
+                    <a href="#" >NEWSLETTER FOR CORPORATES |</a>
+                    
+                    </h5>
+                    <br>
+                </div>
+            
+            </div>
+             <div class="row" id="last">
+                 <div class="col-md-2">
+                 <br>
+                 <h5>
+                    <span style="margin-left:15px">@TBI2017</span>
+                 </h5>
+                 </div>
+                 <div class="col-md-4 col-md-offset-6">
+                     <br>
+                     <h5>
+                    <span>SEND US FEEDBACK TO : </span>
+                    <a href="#">www.tbi.com/feedback</a>
+                     </h5>
+                 </div> 
+                 <br>
+                
+             </div>
+        </div>
+    </div>
+    </body>
+</html>
